@@ -1,0 +1,44 @@
+body {
+	 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* El font family utilizado es el mismo que se utiliza en bootstrap, esto para respetar la consigna que tiene que ser el mismo que la pagina profecional */
+}
+
+.header-custom {
+	padding: 0.01em 16px;
+	text-align: center !important;
+	padding-top: 48px !important;
+    padding-bottom: 48px !important;
+    color: white;
+    background-color: grey;
+    font-size: 3vw !important; 
+    width: 100% !important; 
+}
+
+.footer-custom {
+	padding: 0.01em 16px;
+	text-align: center !important;
+	padding-top: 48px !important;
+    padding-bottom: 48px !important;
+    color: white;
+    background-color: grey;
+    width: 100%;
+    float: left;
+}
+
+.photo-container {
+	float: left;
+	padding: 0.01em 16px;
+	margin: 16px !important;
+	min-width:450px;         
+ 	width: auto !important;
+}
+
+.text-container {
+	font-size: 2em;
+	float: left;
+	padding: 0.01em 16px;
+	margin: 16px !important;
+	min-width:450px;         
+ 	width: auto !important;
+ 	max-width:55%;
+}
